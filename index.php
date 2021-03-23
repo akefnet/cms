@@ -19,7 +19,8 @@ $articles = $article->fetch_all();
 	</head>
 	
 	<body>
-	
+	<?php
+	?>
 	<div class="container">
 			<a href="index.php" id="logo"> GPB CMS </a>
 		<ol>
@@ -35,6 +36,13 @@ $articles = $article->fetch_all();
 				</li>
 			<?php } ?>
 		</ol>
+		
+		<br />
+		<br />
+		
+		<small>
+			<a href="././admin">&larr; admin </a>
+		</small>
 	</div>
 	
 	</body>

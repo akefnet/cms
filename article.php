@@ -19,16 +19,18 @@ if (isset($_GET['id'])) {
 	</head>
 	
 	<body>
+	
 		<div class="container">
 			<a href="index.php" id="logo"> GPB CMS </a>
 			<h4>
-				<?php echo $data['article_title']; ?>
+				<?php echo $data['article_title'];?>
 				- 
 				<small>
 						posted <?php echo date('l jS', $data['article_timestamp']); ?>
 				</small>
 			</h4>
 			<p><?php echo  $data['article_content']; ?></p>
+			<a href="index.php">&larr; Back</a>
 		</div>
 	</body>
 	
